@@ -1,7 +1,7 @@
 # [Silver I] 행렬 - 1080 
 
 [문제 링크](https://www.acmicpc.net/problem/1080) 
-
+[GPT해설](https://chatgpt.com/share/695d065d-8dfc-8002-9077-709abbeff390)
 ### 성능 요약
 
 메모리: 2020 KB, 시간: 0 ms
