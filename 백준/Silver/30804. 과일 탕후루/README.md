@@ -1,7 +1,7 @@
 # [Silver II] 과일 탕후루 - 30804 
 
 [문제 링크](https://www.acmicpc.net/problem/30804) 
-
+[GPT 해설](https://chatgpt.com/share/69624eaf-c0f8-8002-9ec1-df43f7d53b57)
 ### 성능 요약
 
 메모리: 3588 KB, 시간: 28 ms
