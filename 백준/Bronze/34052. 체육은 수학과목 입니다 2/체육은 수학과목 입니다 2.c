@@ -1,0 +1,1 @@
+a,b,c,d;main(){scanf("%d%d%d%d",&a,&b,&c,&d);puts(a+b+c+d+300<=1800?"Yes":"No");}
