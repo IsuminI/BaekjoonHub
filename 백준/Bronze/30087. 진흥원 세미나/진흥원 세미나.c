@@ -1,19 +1,2 @@
-#include <stdio.h>
-
-int main() {
-    int t;
-    char arr[99];
-    for(scanf("%d ",&t);t--;){
-        gets(arr);
-        if(arr[0]=='A') {
-            if(arr[1]=='l') puts("204");
-            else puts("302");
-        } 
-        if(arr[0]=='D') puts("207");
-        if(arr[0]=='C') puts("B101");
-        if(arr[0]=='N') puts("303");
-        if(arr[0]=='S') puts("501");
-        if(arr[0]=='T') puts("105");
-    }
-    return 0;
-}
+#define F(x)a[0]==x
+main(t){char a[99];for(scanf("%d ",&t);t--;){gets(a);if(F('A')){if(a[1]=='l')puts("204");else puts("302");}if(F('D'))puts("207");if(F('C'))puts("B101");if(F('N'))puts("303");if(F('S'))puts("501");if(F('T'))puts("105");}}
