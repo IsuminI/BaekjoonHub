@@ -1,9 +1,1 @@
-#include <stdio.h>
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    if(n <= 10000) printf("Accepted");
-    else printf("Time limit exceeded");
-    return 0;
-}
+main(n){scanf("%d",&n);puts(n<10001?"Accepted":"Time limit exceeded");}
