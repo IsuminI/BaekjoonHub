@@ -1,1 +1,1 @@
-main(a,b,c){scanf("%d%d%d",&a,&b,&c);printf("%d",a*c);}
+main(a,b){scanf("%d%*d%d",&a,&b);printf("%d",a*b);}
