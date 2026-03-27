@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char a[7];
+    for(;;){
+        scanf("%s",&a);
+        if(!strcmp(a, "animal")) puts("Panthera tigris");
+        else if(!strcmp(a, "tree")) puts("Pinus densiflora");
+        else if(!strcmp(a, "flower")) puts("Forsythia koreana");
+        else break;
+    }
+    return 0;
+}
