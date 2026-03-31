@@ -1,0 +1,1 @@
+main(t,i){char a[21],b[21];scanf("%d ",&t);for(i=1;i<=t;i++){gets(a);gets(b);printf("Case %d: %s, %s\n",i,b,a);}}
