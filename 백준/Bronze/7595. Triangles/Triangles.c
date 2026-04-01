@@ -1,15 +1,1 @@
-#include <stdio.h>
-
-int main(){
-    int n;
-    for(;;){
-        scanf("%d",&n);
-        if(!n)break;
-        for(int i=0;i<n;i++,puts("")){
-            for(int j=0;j<=i;j++){
-                printf("*");
-            }
-        }
-    }
-    return 0;
-}
+main(n){while(scanf("%d",&n),n){for(int i=0;i<n;i++,puts(""))for(int j=0;j<=i;j++)printf("*");}}
