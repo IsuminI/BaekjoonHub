@@ -1,8 +1,1 @@
-#include <stdio.h>
-
-int main() {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    printf("%d",a==b?a:a<b?b:a);
-    return 0;
-}
+main(a,b){scanf("%d%d",&a,&b);printf("%d",a<b?b:a);}
