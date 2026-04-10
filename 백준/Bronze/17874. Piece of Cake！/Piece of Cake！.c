@@ -1,8 +1,1 @@
-#include <stdio.h>
-
-int main() {
-    int n, h, v;
-    scanf("%d %d %d", &n, &h, &v);
-    printf("%d",(h<n-h?n-h:h)*(v<n-v?n-v:v)*4);
-    return 0;
-}
+main(n,h,v){scanf("%d%d%d",&n,&h,&v);printf("%d",(h<n-h?n-h:h)*(v<n-v?n-v:v)*4);}
