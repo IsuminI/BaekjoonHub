@@ -1,11 +1,1 @@
-#include <stdio.h>
-
-int main() {
-    char a[9];
-    gets(a);
-    if(a[0]=='F')puts("Foundation");
-    if(a[0]=='C')puts("Claves");
-    if(a[0]=='V')puts("Veritas");
-    if(a[0]=='E')puts("Exploration");
-    return 0;
-}
+main(){char a[9];gets(a);puts(a[0]=='F'?"Foundation":a[0]=='C'?"Claves":a[0]=='V'?"Veritas":"Exploration");}
